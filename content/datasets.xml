@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<erddapDatasets>
+
+<!-- global dataset settings -->
+<cacheMinutes>60</cacheMinutes>
+<decompressedCacheMaxGB>10</decompressedCacheMaxGB>
+<decompressedCacheMaxMinutesOld>15</decompressedCacheMaxMinutesOld>
+<drawLandMask>over</drawLandMask>
+<logLevel>info</logLevel>
+<loadDatasetsMinMinutes>15</loadDatasetsMinMinutes>
+<loadDatasetsMaxMinutes>60</loadDatasetsMaxMinutes>
+<nGridThreads>1</nGridThreads>
+<nTableThreads>1</nTableThreads>
+
+<!-- add dataset definitions below -->
+
+</erddapDatasets>

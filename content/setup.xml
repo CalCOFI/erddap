@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- setup.xml for CalCOFI ERDDAP
+     most values can be overridden by ERDDAP_* environment variables
+     in docker-compose.yml (CalCOFI/server repo) -->
+<erddapSetup>
+
+<bigParentDirectory>/erddapData/</bigParentDirectory>
+
+<baseUrl>http://localhost:8080</baseUrl>
+<baseHttpsUrl>https://erddap.calcofi.io</baseHttpsUrl>
+
+<!-- email settings (configure via env vars) -->
+<emailEverythingTo></emailEverythingTo>
+<emailDailyReportsTo></emailDailyReportsTo>
+<emailFromAddress></emailFromAddress>
+<emailUserName></emailUserName>
+<emailPassword></emailPassword>
+<emailProperties></emailProperties>
+<emailSmtpHost></emailSmtpHost>
+<emailSmtpPort></emailSmtpPort>
+
+<!-- admin info -->
+<adminInstitution>CalCOFI</adminInstitution>
+<adminInstitutionUrl>https://calcofi.io</adminInstitutionUrl>
+<adminIndividualName>CalCOFI Data Manager</adminIndividualName>
+<adminPosition>Data Manager</adminPosition>
+<adminPhone></adminPhone>
+<adminAddress></adminAddress>
+<adminCity>La Jolla</adminCity>
+<adminStateOrProvince>CA</adminStateOrProvince>
+<adminPostalCode>92037</adminPostalCode>
+<adminCountry>USA</adminCountry>
+<adminEmail>calcofi@ucsd.edu</adminEmail>
+
+<!-- security: set ERDDAP_flagKeyKey env var on server -->
+<flagKeyKey></flagKeyKey>
+
+<!-- functionality -->
+<convertersActive>true</convertersActive>
+<fgdcActive>true</fgdcActive>
+<iso19115Active>true</iso19115Active>
+<filesActive>true</filesActive>
+<defaultAccessibleViaFiles>true</defaultAccessibleViaFiles>
+<subscriptionSystemActive>true</subscriptionSystemActive>
+
+<!-- performance -->
+<logMaxSizeMB>20</logMaxSizeMB>
+<quickRestart>true</quickRestart>
+<searchEngine>original</searchEngine>
+<units_standard>UDUNITS</units_standard>
+
+</erddapSetup>
