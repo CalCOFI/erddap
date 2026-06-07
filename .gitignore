@@ -1,5 +1,8 @@
-# runtime state (logs, cache, flags)
+# NOTE: ERDDAP runtime state and source data do NOT live under this repo.
+# CalCOFI/server docker-compose.yml mounts them from /share/erddap/:
+#   /share/erddap/data      -> /erddapData  (runtime state: logs, cache, flags)
+#   /share/erddap/datasets  -> /datasets    (source data files; referenced by datasets.xml)
+# Keep large/runtime files OUT of this repo. The patterns below are only
+# defensive, in case something is ever created here by mistake.
 data/
-
-# source data files (too large for git)
 datasets/
