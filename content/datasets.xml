@@ -20,7 +20,7 @@
   <updateEveryNMillis>0</updateEveryNMillis>
   <fileDir>/datasets/calcofi_ctd/</fileDir>
   <fileNameRegex>.*\.parquet</fileNameRegex>
-  <recursive>false</recursive>
+  <recursive>true</recursive>
   <pathRegex>.*</pathRegex>
   <metadataFrom>last</metadataFrom>
   <standardizeWhat>0</standardizeWhat>
@@ -819,7 +819,7 @@
   <updateEveryNMillis>0</updateEveryNMillis>
   <fileDir>/datasets/calcofi_casts/</fileDir>
   <fileNameRegex>.*\.parquet</fileNameRegex>
-  <recursive>false</recursive>
+  <recursive>true</recursive>
   <pathRegex>.*</pathRegex>
   <metadataFrom>last</metadataFrom>
   <standardizeWhat>0</standardizeWhat>
@@ -1143,7 +1143,7 @@
   <updateEveryNMillis>0</updateEveryNMillis>
   <fileDir>/datasets/calcofi_dic/</fileDir>
   <fileNameRegex>.*\.parquet</fileNameRegex>
-  <recursive>false</recursive>
+  <recursive>true</recursive>
   <pathRegex>.*</pathRegex>
   <metadataFrom>last</metadataFrom>
   <standardizeWhat>0</standardizeWhat>
@@ -1259,7 +1259,7 @@
   <updateEveryNMillis>0</updateEveryNMillis>
   <fileDir>/datasets/calcofi_euphausiids/</fileDir>
   <fileNameRegex>.*\.parquet</fileNameRegex>
-  <recursive>false</recursive>
+  <recursive>true</recursive>
   <pathRegex>.*</pathRegex>
   <metadataFrom>last</metadataFrom>
   <standardizeWhat>0</standardizeWhat>
@@ -1417,7 +1417,7 @@
   <updateEveryNMillis>0</updateEveryNMillis>
   <fileDir>/datasets/calcofi_zooplankton/</fileDir>
   <fileNameRegex>.*\.parquet</fileNameRegex>
-  <recursive>false</recursive>
+  <recursive>true</recursive>
   <pathRegex>.*</pathRegex>
   <metadataFrom>last</metadataFrom>
   <standardizeWhat>0</standardizeWhat>
