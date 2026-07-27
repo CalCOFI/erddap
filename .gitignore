@@ -6,3 +6,6 @@
 # defensive, in case something is ever created here by mistake.
 data/
 datasets/
+
+# datasets.xml backups written by workflows/scripts/{deploy_ctd_netcdf,retire_erddap_dataset}.sh
+*.bak.*
