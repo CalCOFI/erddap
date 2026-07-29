@@ -5750,6 +5750,23 @@ information.
 <!-- The standard startBodyHtml -->
 <startBodyHtml5><![CDATA[
 <body>
+<!-- Google tag (gtag.js) — CalCOFI site property. Injected here because
+     startBodyHtml5 is the one block ERDDAP puts on every generated page;
+     setup.xml's googleAnalyticsTrackingId emits a legacy snippet that a G- id
+     does not work with. Counts BROWSING of the ERDDAP web UI only: the .csv /
+     .nc / .json fetches that are most of ERDDAP's real traffic come from
+     scripts that never run JavaScript, and are counted from the Caddy access
+     logs instead. -->
+<script>window.__CC_GA = location.hostname.endsWith("calcofi.io") && !navigator.webdriver;</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0HVK8TDMCF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  if (window.__CC_GA) {
+    gtag('js', new Date());
+    gtag('config', 'G-0HVK8TDMCF', { content_group: 'erddap' });
+  }
+</script>
 <table class="compact nowrap" style="width:100%; background-color:#128CB5;">
   <tr>
     <td style="text-align:center; width:90px;"><a rel="bookmark"
