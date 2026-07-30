@@ -1050,7 +1050,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>calcofi_ctd-cast_full</tableName>
+  <tableName>calcofi_ctd_cast_full</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -1182,7 +1182,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>calcofi_ctd-cast</tableName>
+  <tableName>calcofi_ctd_cast</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -1368,7 +1368,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>calcofi_ctd-cast_sample</tableName>
+  <tableName>calcofi_ctd_cast_sample</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -3226,7 +3226,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_euphausiids</tableName>
+  <tableName>cce_lter_euphausiids</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -3412,7 +3412,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_euphausiids_sample</tableName>
+  <tableName>cce_lter_euphausiids_sample</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -3571,7 +3571,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_picoplankton-bacteria</tableName>
+  <tableName>cce_lter_picoplankton_bacteria</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -3757,7 +3757,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_picoplankton-bacteria_sample</tableName>
+  <tableName>cce_lter_picoplankton_bacteria_sample</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -3916,7 +3916,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_zoodb</tableName>
+  <tableName>cce_lter_zoodb</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -4102,7 +4102,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_zoodb_sample</tableName>
+  <tableName>cce_lter_zoodb_sample</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -4261,7 +4261,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_zooscan</tableName>
+  <tableName>cce_lter_zooscan</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -4447,7 +4447,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>cce-lter_zooscan_sample</tableName>
+  <tableName>cce_lter_zooscan_sample</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -5692,7 +5692,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>ucsd_sio_mesopelagic-fish</tableName>
+  <tableName>ucsd_sio_mesopelagic_fish</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
@@ -5879,7 +5879,7 @@ release v2026.07.30, 34 datasets, 2026-07-30     EDDTableFromDatabase over DuckD
   <connectionProperty name="temp_directory">/share/data/erddap-duckdb/tmp</connectionProperty>
   <catalogName></catalogName>
   <schemaName></schemaName>
-  <tableName>ucsd_sio_mesopelagic-fish_sample</tableName>
+  <tableName>ucsd_sio_mesopelagic_fish_sample</tableName>
   <columnNameQuotes>"</columnNameQuotes>
   <sourceCanOrderBy>yes</sourceCanOrderBy>
   <sourceCanDoDistinct>yes</sourceCanDoDistinct>
