@@ -114,3 +114,62 @@ td.verticalLine {border-left:1px solid #bbbbbb; height:100%; }
 /* This is used on the /info/[datasetID]/index.html pages to highlight a cell or row. */
 td.highlightBGColor {background-color:#cceecc; }
 tr.highlightBGColor {background-color:#cceecc; }
+
+/* ===========================================================================
+   CalCOFI additions — the calcofi.io brand contract (https://calcofi.io/brand/v1/).
+   Everything above is the stock ERDDAP sample (erddapStart2.css) untouched, so
+   the light theme is essentially stock ERDDAP. theme.js sets
+   <html data-theme="dark|light"> (dark is the default), and the rules below
+   restyle only under data-theme="dark", against the brand tokens theme.css
+   defines (--bg --panel --panel-2 --border --fg --muted --accent --accent-d).
+   No JavaScript (no data-theme) = stock light ERDDAP.
+   =========================================================================== */
+
+/* the brand header is full-bleed; ERDDAP's content keeps its 8px inset */
+body { margin:0; padding:0 8px; }
+body > .cc-header { margin:0 -8px 0.75em; }
+.cc-header .cc-erddap-login { color:var(--muted); }
+
+:root[data-theme="dark"] body { background-color:var(--bg); color:var(--fg); }
+
+:root[data-theme="dark"] a:link    { color:var(--accent); }
+:root[data-theme="dark"] a:visited { color:var(--accent-d); }
+:root[data-theme="dark"] a.selfLink,
+:root[data-theme="dark"] a.selfLink:visited { color:var(--fg); }
+
+:root[data-theme="dark"] hr { color:var(--border); background-color:var(--border); }
+
+/* the yellow (#ffffcc) panels, and the inline bgcolor= / style= that ERDDAP
+   stamps on many of its generated tables (best effort: what CSS can reach) */
+:root[data-theme="dark"] table.commonBGColor,
+:root[data-theme="dark"] table[bgcolor], :root[data-theme="dark"] tr[bgcolor],
+:root[data-theme="dark"] th[bgcolor],    :root[data-theme="dark"] td[bgcolor],
+:root[data-theme="dark"] [style*="background-color:#ffffcc"],
+:root[data-theme="dark"] [style*="background-color: #ffffcc"],
+:root[data-theme="dark"] [style*="background-color:#FFFFCC"] {
+  background-color:var(--panel) !important; }
+
+:root[data-theme="dark"] table.erd,
+:root[data-theme="dark"] table.erd th, :root[data-theme="dark"] table.erd td,
+:root[data-theme="dark"] td.verticalLine { border-color:var(--border); }
+
+:root[data-theme="dark"] td.highlightBGColor,
+:root[data-theme="dark"] tr.highlightBGColor { background-color:#1f3a2a; }
+
+:root[data-theme="dark"] input, :root[data-theme="dark"] select,
+:root[data-theme="dark"] textarea, :root[data-theme="dark"] button {
+  background-color:var(--panel-2); color:var(--fg); border:1px solid var(--border); }
+:root[data-theme="dark"] input[type=button], :root[data-theme="dark"] input[type=submit],
+:root[data-theme="dark"] button { background-color:var(--panel); }
+:root[data-theme="dark"] input[type=button]:hover, :root[data-theme="dark"] input[type=submit]:hover,
+:root[data-theme="dark"] button:hover { background-color:var(--panel-2); }
+
+:root[data-theme="dark"] span.cssTooltip:hover span.cssTooltipInner {
+  border-color:var(--border); color:var(--fg); background:var(--panel-2); }
+
+/* the semantic text colours, lifted so they read on a dark ground */
+:root[data-theme="dark"] span.highlightColor { color:#63e6be; }
+:root[data-theme="dark"] span.standoutColor  { color:#ffa94d; }
+:root[data-theme="dark"] span.subduedColor   { color:var(--muted); }
+:root[data-theme="dark"] span.successColor   { color:#51cf66; }
+:root[data-theme="dark"] span.warningColor   { color:#ff6b6b; }

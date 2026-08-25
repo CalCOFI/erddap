@@ -19,10 +19,21 @@ git clone https://github.com/CalCOFI/erddap.git /share/github/CalCOFI/erddap
   `accessConstraints`, `fees`, `keywords`, `flagKeyKey`, and logo settings).
 - `content/datasets.xml` — dataset definitions (file paths resolve inside the
   container under `/datasets`, i.e. `/share/erddap/datasets/` on the host).
-- `content/images/calcofi.svg` — header logo.
-- `messages.xml` — full copy of the ERDDAP default with only `<startBodyHtml5>`
-  customized for the CalCOFI header; mounted over the classpath messages.xml by
+- `content/images/erddap2.css` — ERDDAP's own stylesheet slot (it looks for
+  exactly this name under `images/`). The stock sample (`erddapStart2.css`)
+  plus, appended, the `:root[data-theme="dark"]` overrides of the calcofi.io
+  brand contract; light stays stock. Mounted into the webapp `images/` dir by
+  `CalCOFI/server`, beside `calcofi.svg`.
+- `content/images/calcofi.svg` — legacy header logo (the header now hotlinks
+  the brand logo pair from calcofi.io).
+- `messages.xml` — full copy of the ERDDAP default with only `<startHeadHtml5>`
+  and `<startBodyHtml5>` customized; mounted over the classpath messages.xml by
   `CalCOFI/server` (a `content/erddap/messages.xml` does not work in 2.30.0).
+  **Re-derive it from the new default on every ERDDAP upgrade**, then re-apply
+  the two blocks. They carry the [calcofi.io brand contract](https://calcofi.io/brand/v1/):
+  the head gets the favicon set, the pre-paint theme snippet, `theme.css` +
+  `theme.js` and a real `<title>`; the body gets the `.cc-header` (logo ->
+  calcofi.io, title -> this ERDDAP, links, 🌓 toggle) and the GA4 tag.
 
 ## Data locations (NOT in this repo)
 
