@@ -116,10 +116,10 @@ td.highlightBGColor {background-color:#cceecc; }
 tr.highlightBGColor {background-color:#cceecc; }
 
 /* ===========================================================================
-   CalCOFI additions — the calcofi.io brand contract (https://calcofi.io/brand/v1/).
+   CalCOFI additions — the calcofi.io brand contract (https://calcofi.io/brand/v2/).
    Everything above is the stock ERDDAP sample (erddapStart2.css) untouched, so
    the light theme is essentially stock ERDDAP. theme.js sets
-   <html data-theme="dark|light"> (dark is the default), and the rules below
+   <html data-theme="dark|light"> (light is the default since brand v2), and the rules below
    restyle only under data-theme="dark", against the brand tokens theme.css
    defines (--bg --panel --panel-2 --border --fg --muted --accent --accent-d).
    No JavaScript (no data-theme) = stock light ERDDAP.
