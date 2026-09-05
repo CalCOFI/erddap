@@ -5792,6 +5792,7 @@ information.
   <nav class="cc-links">
     <a href="&erddapUrl;/info/index.html">datasets</a>
     <a href="&erddapUrl;/search/index.html">search</a>
+    <a href="https://calcofi.io/datasets/">catalog</a>
     <a href="https://calcofi.io/docs/">docs</a>
     <a href="https://calcofi.io">calcofi.io</a>
     <span class="cc-erddap-login">&loginInfo; | &language;</span>
